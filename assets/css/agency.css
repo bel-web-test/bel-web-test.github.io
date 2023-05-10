@@ -166,7 +166,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/IMG_3984-crop-1.JPG");
+  background-image: url("../img/bel_kit_background.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -214,6 +214,16 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+.service-link {
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 1;
+}
+.service-link:hover {
+  opacity: 0.5;
 }
 
 #portfolio .portfolio-item {
